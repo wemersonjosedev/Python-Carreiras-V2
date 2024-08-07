@@ -1,9 +1,9 @@
 <h4 class="text-center">Formulário de Inscrição</h4>
 <hr>
-<form class="form-group" method="POST" action="#">
+<form class="form-group" method="POST" action="/vaga/{{vaga.id}}/inscricao">
   <div class="mb-2">
     <label>Nome</label> <br>
-    <input class="form-control" type="text" name="nome" placeholder="Informe o Nome ">
+    <input class="form-control" type="text" name="nome" placeholder="Informe o Nome">
   </div>
   <div class="mb-2">
     <label>E-mail</label>
@@ -18,5 +18,4 @@
     <textarea name="experiencia" class="form-control" placeholder="Informe a Experiência"></textarea>
   </div>
   <input class="btn btn-success" type="submit" name="submit">
-
 </form>
